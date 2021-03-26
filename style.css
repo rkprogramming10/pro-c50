@@ -1,0 +1,48 @@
+
+    h1{
+        color: red;
+        border: 200px;
+        text-align: center; 
+    }
+   
+    
+    .header{
+        background-color: aqua;
+        display:flex;
+        justify-content: space-between;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        font-family: sans-serif;
+    }
+    .grid img{
+        
+     border:2px solid black;
+     border-radius: 50px;
+    }
+    .origami{
+       border:2px;
+       background-color: white;
+
+       width: 310px;
+       font-family: fantasy;
+
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        background-color:aqua;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 400;
+        color: blue;
+    }
+    body{
+        background-color: whitesmoke;
+    }
+    .footer{
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+    }
